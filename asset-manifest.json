@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/js/main.b47042cd.chunk.js",
+    "main.js.map": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/js/main.b47042cd.chunk.js.map",
+    "runtime-main.js": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/js/runtime-main.6f203a45.js",
+    "runtime-main.js.map": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/js/runtime-main.6f203a45.js.map",
+    "static/js/2.aa107d67.chunk.js": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/js/2.aa107d67.chunk.js",
+    "static/js/2.aa107d67.chunk.js.map": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/js/2.aa107d67.chunk.js.map",
+    "index.html": "/sant-giani-gurbachan-singh-ji-sggsji-khata/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.aa107d67.chunk.js.LICENSE.txt": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/js/2.aa107d67.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f203a45.js",
+    "static/js/2.aa107d67.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.b47042cd.chunk.js"
+  ]
+}
