@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/js/main.960ba3c5.chunk.js",
-    "main.js.map": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/js/main.960ba3c5.chunk.js.map",
-    "runtime-main.js": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/js/runtime-main.6f203a45.js",
-    "runtime-main.js.map": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/js/runtime-main.6f203a45.js.map",
-    "static/js/2.aa107d67.chunk.js": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/js/2.aa107d67.chunk.js",
-    "static/js/2.aa107d67.chunk.js.map": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/js/2.aa107d67.chunk.js.map",
-    "index.html": "/sant-giani-gurbachan-singh-ji-sggsji-khata/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.aa107d67.chunk.js.LICENSE.txt": "/sant-giani-gurbachan-singh-ji-sggsji-khata/static/js/2.aa107d67.chunk.js.LICENSE.txt"
+    "main.css": "/sggsji-khata/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/sggsji-khata/static/js/main.960ba3c5.chunk.js",
+    "main.js.map": "/sggsji-khata/static/js/main.960ba3c5.chunk.js.map",
+    "runtime-main.js": "/sggsji-khata/static/js/runtime-main.054a1c11.js",
+    "runtime-main.js.map": "/sggsji-khata/static/js/runtime-main.054a1c11.js.map",
+    "static/js/2.aa107d67.chunk.js": "/sggsji-khata/static/js/2.aa107d67.chunk.js",
+    "static/js/2.aa107d67.chunk.js.map": "/sggsji-khata/static/js/2.aa107d67.chunk.js.map",
+    "index.html": "/sggsji-khata/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/sggsji-khata/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.aa107d67.chunk.js.LICENSE.txt": "/sggsji-khata/static/js/2.aa107d67.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6f203a45.js",
+    "static/js/runtime-main.054a1c11.js",
     "static/js/2.aa107d67.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.960ba3c5.chunk.js"
