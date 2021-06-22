@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/santjikhata/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/santjikhata/static/js/main.73070611.chunk.js",
-    "main.js.map": "/santjikhata/static/js/main.73070611.chunk.js.map",
-    "runtime-main.js": "/santjikhata/static/js/runtime-main.ae76ba9f.js",
-    "runtime-main.js.map": "/santjikhata/static/js/runtime-main.ae76ba9f.js.map",
-    "static/js/2.aa107d67.chunk.js": "/santjikhata/static/js/2.aa107d67.chunk.js",
-    "static/js/2.aa107d67.chunk.js.map": "/santjikhata/static/js/2.aa107d67.chunk.js.map",
-    "index.html": "/santjikhata/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/santjikhata/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.aa107d67.chunk.js.LICENSE.txt": "/santjikhata/static/js/2.aa107d67.chunk.js.LICENSE.txt"
+    "main.css": "/sggsji-khata/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/sggsji-khata/static/js/main.781e6f70.chunk.js",
+    "main.js.map": "/sggsji-khata/static/js/main.781e6f70.chunk.js.map",
+    "runtime-main.js": "/sggsji-khata/static/js/runtime-main.054a1c11.js",
+    "runtime-main.js.map": "/sggsji-khata/static/js/runtime-main.054a1c11.js.map",
+    "static/js/2.aa107d67.chunk.js": "/sggsji-khata/static/js/2.aa107d67.chunk.js",
+    "static/js/2.aa107d67.chunk.js.map": "/sggsji-khata/static/js/2.aa107d67.chunk.js.map",
+    "index.html": "/sggsji-khata/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/sggsji-khata/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.aa107d67.chunk.js.LICENSE.txt": "/sggsji-khata/static/js/2.aa107d67.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ae76ba9f.js",
+    "static/js/runtime-main.054a1c11.js",
     "static/js/2.aa107d67.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.73070611.chunk.js"
+    "static/js/main.781e6f70.chunk.js"
   ]
 }
