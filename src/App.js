@@ -5,7 +5,7 @@ import { khata } from "./khata";
 function App() {
   const [message, setMessage] = useState("....No Khatas Yet");
   const [ang, setAng] = useState("");
-
+  
   function khataForAng(angNum) {
     function randId() {
       return Math.random().toString(36).substr(2, 9);
@@ -33,33 +33,38 @@ function App() {
     return <ol>{whatToReturn()}</ol>;
   }
 
+
   return (
     <div>
       <div>Sant Giani Gurbachan Singh Ji Bhindran Wale ਕਥਾ</div>
       <div>Enter the Ang Number for which you want ਕਥਾ of:</div>
       <div>
-        <input
-          type="number"
-          placeholder="ex: 1084"
-          value={ang}
-          onChange={(event) => {
-            setAng(event.target.value);
-          }}
-        />
-        <button
-          onClick={() => {
-            if (0 < ang && ang < 1431) {
-              setMessage(() => {
-                let theKhata = khataForAng(ang);
-                return theKhata;
-              });
-            } else {
-              alert("Please enter vallid ang number");
-            }
-          }}
-        >
-          Submit
-        </button>
+        <form onSubmit={(e)=>e.preventDefault()}>
+          <input
+            autoFocus="autofocus"
+            type="number"
+            placeholder="ex: 1084"
+            value={ang}
+            onChange={(event) => {
+              setAng(event.target.value);
+            }}
+            />
+          <button
+            type="submit"
+            onClick={() => {
+              if (0 < ang && ang < 1431) {
+                setMessage(() => {
+                  let theKhata = khataForAng(ang);
+                  return theKhata;
+                });
+              } else {
+                alert("Please enter vallid ang number");
+              }
+            }}
+            >
+            Submit
+          </button>
+        </form>
         <div>{message}</div>
         <button
           onClick={() => {
