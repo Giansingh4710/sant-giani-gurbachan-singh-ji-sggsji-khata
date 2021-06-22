@@ -5,7 +5,7 @@ import { khata } from "./khata";
 function App() {
   const [message, setMessage] = useState("....No Khatas Yet");
   const [ang, setAng] = useState("");
-  
+
   function khataForAng(angNum) {
     function randId() {
       return Math.random().toString(36).substr(2, 9);
@@ -16,10 +16,12 @@ function App() {
         a = khata[angNum].map((i) => {
           return (
             <li key={randId()}>
-              <a href={i} target="_blank" rel="noopener noreferrer">
-                {i}
-              </a>
-              <video controls name="media">
+              <div>
+                <a href={i} target="_blank" rel="noopener noreferrer">
+                  {i}
+                </a>
+              </div>
+              <video width="500" height="60" controls name="media">
                 <source src={i} type="audio/mpeg" />
               </video>
             </li>
@@ -33,13 +35,12 @@ function App() {
     return <ol>{whatToReturn()}</ol>;
   }
 
-
   return (
     <div>
       <div>Sant Giani Gurbachan Singh Ji Bhindran Wale ਕਥਾ</div>
       <div>Enter the Ang Number for which you want ਕਥਾ of:</div>
       <div>
-        <form onSubmit={(e)=>e.preventDefault()}>
+        <form onSubmit={(e) => e.preventDefault()}>
           <input
             autoFocus="autofocus"
             type="number"
@@ -48,7 +49,7 @@ function App() {
             onChange={(event) => {
               setAng(event.target.value);
             }}
-            />
+          />
           <button
             type="submit"
             onClick={() => {
@@ -61,7 +62,7 @@ function App() {
                 alert("Please enter vallid ang number");
               }
             }}
-            >
+          >
             Submit
           </button>
         </form>
